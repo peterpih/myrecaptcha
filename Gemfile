@@ -9,4 +9,6 @@ gem 'pg'
 gem 'recaptcha', require: 'recaptcha/rails' #, path: '../..'
 gem 'puma'
 
+gem 'uglifier', '>= 1.3.0'
+
 gem 'rails_12factor', '~> 0.0.3', group: :production  # for heroku
