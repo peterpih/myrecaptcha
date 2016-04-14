@@ -3,11 +3,12 @@ source 'https://rubygems.org'
 ruby '2.3.0'
 
 gem 'dotenv-rails', groups: [:development, :test]
-gem 'rails', '4.2.5'
-#gem 'sqlite3'
-gem 'pg'
-gem 'recaptcha', require: 'recaptcha/rails' #, path: '../..'
+gem 'rails', '~> 4.2.5'
+gem 'pg', '~> 0.18.4'
 gem 'puma'
+#gem 'sqlite3'
+gem 'recaptcha', require: 'recaptcha/rails' #, path: '../..'
+
 
 gem 'uglifier', '>= 1.3.0'
 
