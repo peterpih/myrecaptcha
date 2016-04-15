@@ -106,3 +106,15 @@ Processing by CaptchaController#create as HTML
   Parameters: {"utf8"=>"✓", "authenticity_token"=>"oKol+rwfVcpKHcGYQVgUbedZk8kUFsuTWLb10QghamehAXJ1b52V6LvRoFI3dl7fIJ+Nw4+2tXRC95pk6s+sFw==", "g-recaptcha-response"=>"", "commit"=>"Save changes"}
   Rendered text template (0.0ms)
 Completed 200 OK in 191ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-14 19:23:19 -0500
+Processing by CaptchaController#index as HTML
+  Rendered captcha/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 160ms (Views: 160.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-14 19:23:20 -0500
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for ::1 at 2016-04-14 19:23:20 -0500
