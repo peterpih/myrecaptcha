@@ -1,0 +1,8 @@
+deployment:
+  production:
+    branch: master
+    commands:
+      - heroku maintenance:on --app ancient-wave-4180
+      - git push git@heroku.com:ancient-wave-4180.git $CIRCLE_SHA1:refs/heads/master
+      - heroku run rake db:migrate --app ancient-wave-4180
+      - heroku maintenance:off --app ancient-wave-4180

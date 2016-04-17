@@ -1,0 +1,12 @@
+require 'spec_helper'
+
+describe CaptchaController do
+  it "/index should return 200" do
+    get 'index'
+    response.status.should be 200
+  end
+  it "gets the correct index view template" do
+    get "index"
+    response.should render_template("users/index")
+  end
+end
