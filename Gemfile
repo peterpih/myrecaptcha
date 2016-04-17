@@ -7,7 +7,7 @@ gem 'rails', '~> 4.2.5'
 gem 'pg', '~> 0.18.4'
 gem 'puma'
 #gem 'sqlite3'
-gem 'recaptcha' #, require: 'recaptcha/rails' #, path: '../..'
+gem 'recaptcha', require: 'recaptcha/rails' #, path: '../..'
 
 
 gem 'bundle'
